@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="North Star Bakery offers handmade breads, pastries, and custom cakes for the neighborhood." />
+  <title>North Star Bakery | Home</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand-wrap">
+      <img src="bakery-logo.png" alt="North Star Bakery logo" class="logo" />
+      <div class="brand-copy">
+        <p class="eyebrow">Neighborhood bakery</p>
+        <h1>North Star Bakery</h1>
+      </div>
+    </div>
+
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="index.html" class="active">Home</a>
+      <a href="products.html">Products</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <img src="bakery-storefront.jpg" alt="North Star Bakery storefront" class="hero-image" />
+      <div class="hero-copy">
+        <p class="eyebrow accent">Fresh from the oven</p>
+        <h2>Warm loaves, sweet pastries, and bakery moments worth sharing.</h2>
+        <p>We bake daily for neighbors, commuters, families, and celebrations—bringing slow-made comfort to each morning.</p>
+        <div class="hero-actions">
+          <a href="products.html" class="btn primary">Browse products</a>
+          <a href="contact.html" class="btn secondary">Pre-order</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="info-grid container">
+      <article class="card">
+        <p class="eyebrow">What we’re known for</p>
+        <h3>Simple ingredients, handmade flavor.</h3>
+        <ul>
+          <li>Slow-fermented sourdough and country loaves</li>
+          <li>Flaky pastries, sticky buns, and morning favorites</li>
+          <li>Custom cakes for intimate celebrations and events</li>
+        </ul>
+      </article>
+
+      <article class="card hours-card">
+        <p class="eyebrow">Hours & location</p>
+        <h3>Open daily for bakery runs and pickups</h3>
+        <p>Tuesday–Sunday</p>
+        <p>7:00 AM – 3:00 PM</p>
+        <p>123 Maple Street</p>
+        <p>Near the 5th & Maple corner</p>
+      </article>
+    </section>
+
+    <section class="feature container">
+      <div class="feature-copy">
+        <p class="eyebrow accent">Featured item of the week</p>
+        <h3>Cardamom Honey Buns</h3>
+        <p>Golden, buttery layers with a warm spice finish and drizzle of local wildflower honey.</p>
+        <p class="price-tag">Limited batch • $6 each</p>
+      </div>
+
+      <picture>
+        <source media="(min-width: 800px)" srcset="bakery-feature-large.jpg" />
+        <img src="bakery-feature-small.jpg" alt="Featured bakery item" class="feature-image" />
+      </picture>
+    </section>
+
+    <section class="signature container">
+      <figure>
+        <img src="bakery-signature-loaf.jpg" alt="Signature loaf of sourdough" class="signature-image" />
+        <figcaption>Our Signature Loaf — crisp crust, airy crumb, and deep flavor built from patient fermentation.</figcaption>
+      </figure>
+
+      <div class="signature-copy">
+        <p class="eyebrow accent">Baked with care</p>
+        <h3>Neighborhood favorites, made daily.</h3>
+        <p>From early morning pastry runs to weekend cake pickups, every loaf is shaped by hand and baked with the kind of attention you can taste.</p>
+      </div>
+    </section>
+
+    <section class="media-section container">
+      <h3>Welcome message</h3>
+      <p>Listen to a quick hello from our bakers:</p>
+      <audio controls>
+        <source src="bakery-welcome.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element. We bake with care and welcome neighbors every morning.
+      </audio>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <nav class="footer-nav" aria-label="Footer navigation">
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <p>© <span id="year"></span> North Star Bakery • Baked for the neighborhood.</p>
+  </footer>
+
+  <script src="js/site.js"></script>
+</body>
+</html>
