@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" role="img" aria-label="Bakery pastry display case">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f1b35c"/>
+      <stop offset="100%" stop-color="#d7762b"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" x2="1">
+      <stop offset="0%" stop-color="#927a5c"/>
+      <stop offset="100%" stop-color="#5a4a39"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" x2="1">
+      <stop offset="0%" stop-color="#6f4830"/>
+      <stop offset="100%" stop-color="#2f1d18"/>
+    </linearGradient>
+    <radialGradient id="bun" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#f7d28c"/>
+      <stop offset="100%" stop-color="#d08d2d"/>
+    </radialGradient>
+    <radialGradient id="cookie" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#f9d58a"/>
+      <stop offset="100%" stop-color="#be7420"/>
+    </radialGradient>
+    <radialGradient id="darkCookie" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#80562b"/>
+      <stop offset="100%" stop-color="#472811"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1400" height="900" fill="#f4d8ab"/>
+  <rect x="120" y="80" width="1160" height="740" rx="16" fill="url(#glass)" opacity="0.9"/>
+
+  <rect x="150" y="110" width="1100" height="170" rx="10" fill="#4a362a" opacity="0.8"/>
+  <rect x="150" y="320" width="1100" height="170" rx="10" fill="#4a362a" opacity="0.8"/>
+  <rect x="150" y="530" width="1100" height="170" rx="10" fill="#4a362a" opacity="0.8"/>
+
+  <g opacity="0.95">
+    <g transform="translate(170 120)">
+      <ellipse cx="120" cy="120" rx="110" ry="68" fill="#f7d58b"/>
+      <ellipse cx="300" cy="120" rx="110" ry="68" fill="#f7d58b"/>
+      <ellipse cx="480" cy="120" rx="110" ry="68" fill="#f7d58b"/>
+      <ellipse cx="660" cy="120" rx="110" ry="68" fill="#f7d58b"/>
+      <ellipse cx="840" cy="120" rx="110" ry="68" fill="#f7d58b"/>
+      <ellipse cx="1020" cy="120" rx="110" ry="68" fill="#f7d58b"/>
+    </g>
+
+    <g transform="translate(210 350)">
+      <ellipse cx="80" cy="90" rx="72" ry="54" fill="url(#darkCookie)"/>
+      <ellipse cx="200" cy="90" rx="74" ry="56" fill="#f4b85a"/>
+      <ellipse cx="330" cy="90" rx="72" ry="54" fill="#f0c26a"/>
+      <ellipse cx="470" cy="90" rx="76" ry="58" fill="#d9892d"/>
+      <ellipse cx="620" cy="90" rx="72" ry="54" fill="#f2c77d"/>
+      <ellipse cx="760" cy="90" rx="74" ry="56" fill="#d1852a"/>
+      <ellipse cx="900" cy="90" rx="72" ry="54" fill="#ecd29e"/>
+    </g>
+
+    <g transform="translate(190 560)">
+      <ellipse cx="60" cy="90" rx="72" ry="54" fill="#f3d11b"/>
+      <ellipse cx="190" cy="90" rx="66" ry="50" fill="#f7e2ad"/>
+      <ellipse cx="320" cy="90" rx="68" ry="52" fill="#d28d2e"/>
+      <ellipse cx="470" cy="90" rx="72" ry="54" fill="#e5b86d"/>
+      <ellipse cx="620" cy="90" rx="72" ry="54" fill="#f0c972"/>
+      <ellipse cx="760" cy="90" rx="80" ry="60" fill="#d07f1f"/>
+      <ellipse cx="930" cy="90" rx="78" ry="58" fill="#f5d98b"/>
+    </g>
+  </g>
+
+  <g fill="#6a3f21" opacity="0.45">
+    <circle cx="180" cy="190" r="8"/>
+    <circle cx="240" cy="155" r="8"/>
+    <circle cx="330" cy="190" r="8"/>
+    <circle cx="470" cy="170" r="9"/>
+    <circle cx="610" cy="190" r="8"/>
+    <circle cx="760" cy="170" r="9"/>
+    <circle cx="910" cy="190" r="8"/>
+    <circle cx="1050" cy="160" r="9"/>
+  </g>
+
+  <g fill="#f2e0b2" opacity="0.8">
+    <ellipse cx="260" cy="520" rx="42" ry="18"/>
+    <ellipse cx="475" cy="530" rx="44" ry="20"/>
+    <ellipse cx="690" cy="535" rx="46" ry="20"/>
+    <ellipse cx="955" cy="525" rx="42" ry="18"/>
+  </g>
+
+  <g fill="#b7682d" opacity="0.5">
+    <circle cx="200" cy="640" r="7"/>
+    <circle cx="288" cy="615" r="7"/>
+    <circle cx="465" cy="618" r="7"/>
+    <circle cx="595" cy="648" r="7"/>
+    <circle cx="805" cy="618" r="7"/>
+    <circle cx="955" cy="645" r="7"/>
+  </g>
+</svg>
